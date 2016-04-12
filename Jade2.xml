@@ -30,7 +30,12 @@
             <next>
               <block type="oled_cleardisplay" id="184">
                 <next>
-                  <block type="movement_stop" id="82"></block>
+                  <block type="oled_drawtext" id="199">
+                    <field name="TEXT">Complete</field>
+                    <next>
+                      <block type="movement_stop" id="82"></block>
+                    </next>
+                  </block>
                 </next>
               </block>
             </next>
