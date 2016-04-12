@@ -28,11 +28,10 @@
               </block>
             </value>
             <next>
-              <block type="movement_stop" id="82">
+              <block type="oled_drawtext" id="174">
+                <field name="TEXT">Project Complete</field>
                 <next>
-                  <block type="oled_drawtext" id="174">
-                    <field name="TEXT">Project Complete</field>
-                  </block>
+                  <block type="movement_stop" id="82"></block>
                 </next>
               </block>
             </next>
