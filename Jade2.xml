@@ -30,8 +30,13 @@
             <next>
               <block type="oled_cleardisplay" id="184">
                 <next>
-                  <block type="oled_drawtext" id="199">
-                    <field name="TEXT">Complete</field>
+                  <block type="led_select" id="215" inline="true">
+                    <field name="ACTION">ON</field>
+                    <value name="LED">
+                      <block type="math_number" id="216">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
                     <next>
                       <block type="movement_stop" id="82"></block>
                     </next>
